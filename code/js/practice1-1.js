@@ -1,4 +1,5 @@
-readline = require('readline');
+var reader = require("readline");
+
 /*
     This is the extra step I took as Karl Adviced...
     Practice - Chapter 01 Page 36 | You don't know JS by Karl Max
@@ -10,11 +11,16 @@ readline = require('readline');
     Navigate to the folder that has this file and run "node practice1.js"
     - Daniel Osineye
 */
-// const TAX_RATE = 0.05;
+const TAX_RATE = 0.05;
 // const PHONE_PRICE = 150000;
 // const ACCESORY_PRICE = 15000;
 // const SPENDING_THRESHOLD = 20000;
 // var acctBalance = 1000000;
+
+var PHONE_PRICE;
+var ACCESORY_PRICE;
+var SPENDING_THRESHOLD;
+var acctBalance;
 
 var tax = function(cost) {
     return TAX_RATE * cost;
@@ -30,17 +36,15 @@ function buy(amt) {
 function setConstants() {
     console.log("I'll assume your tax rate is 0.05");
     // I'll treat them as constants, so I'll leave them in caps.
-    console.log("How much does your phone cost, the truth no deamons running beneath... just you");
-    var PHONE_PRICE = readline.prompt();
-    console.log("Total cost of assesories you'll love to purchase");
-    var ACCESORY_PRICE = readline();
-    console.log("Mental Spending threshold: If you spend this once, you'll go crazy...");
-    var SPENDING_THRESHOLD = readline();
-    console.log("Account balance");
+    PHONE_PRICE = prompt();
+    ACCESORY_PRICE = prompt("Total cost of assesories you'll love to purchase");
+    SPENDING_THRESHOLD = prompt("Mental Spending threshold: If you spend this once, you'll go crazy...");
+    acctBalance = prompt("Account balance");
+    console.log(PHONE_PRICE);
 }
 
 function purchase() {
-    // End of setConstants()
+
     var totalPurchase = PHONE_PRICE + ACCESORY_PRICE;
     while (totalPurchase < acctBalance) {
         if (totalPurchase < SPENDING_THRESHOLD) {
@@ -53,5 +57,4 @@ function purchase() {
     }
 }
 
-setConstants();
 purchase();
