@@ -20,9 +20,13 @@ var tax = function(cost) {
 
 // buy is synonymous to payment | It subtracts total amount you are spending(including accesories ... if applicable) from your  bank account! Spend wisely
 function buy(amt) {
-    console.log("Balance is :  ", acctBalance);
+    console.log("Balance is :  ", format(acctBalance));
     acctBalance = acctBalance - (amt + tax(amt));
-    console.log("Balance is :  ", acctBalance);
+    console.log("Balance is :  ", format(acctBalance));
+}
+
+function format(amt) {
+    return "$" + amt.toString();
 }
 
 function purchase() {
