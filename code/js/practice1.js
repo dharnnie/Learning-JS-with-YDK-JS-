@@ -1,8 +1,8 @@
 /*
-    Practice - Chapter 01 Page 36 | You don't know JS by Karl Max
+    Practice - Chapter 01 Page 36 | You don't know JS by Kyle
     This trial uses pre-defined constants [TAX_RATE, PHONE_PRICE, ACCESORY_PRICE, SPENDING_THRESHOLD]
     
-    The other file "practice1-1.js" allows you to recieve input... Took the extra step like Karl adviced
+    The other file "practice1-1.js" allows you to recieve input... Took the extra step like Kyle adviced
     Manipulate the spending treshold value to get different results or just run the upgraded file "practice1-1.js" to use your values
 
     Navigate to the folder that has this file and run "node practice1.js"

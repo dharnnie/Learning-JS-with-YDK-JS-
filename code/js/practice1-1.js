@@ -1,8 +1,8 @@
 var reader = require("readline");
 
 /*
-    This is the extra step I took as Karl Adviced...
-    Practice - Chapter 01 Page 36 | You don't know JS by Karl Max
+    This is the extra step I took as Kyle Adviced...
+    Practice - Chapter 01 Page 36 | You don't know JS by Kyle
     This trial uses allows you to set your variable for [TAX_RATE, PHONE_PRICE, ACCESORY_PRICE, SPENDING_THRESHOLD]
     
     
