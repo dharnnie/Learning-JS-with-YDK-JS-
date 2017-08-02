@@ -44,4 +44,4 @@ admitApplicants();
 // I expect line 41 to return "Daniel Osineye has been admitted, Daniel Osineye's age is 21"
 // And 42 should return "Segun Osineye has been admitted, Segun Osineye's Age is 21"
 
-// Buzz me if you've got ideas... dcodes.daniel@gmail.com
+// Buzz me if you've got ideas... dcodes.daniel@gmail.com |
