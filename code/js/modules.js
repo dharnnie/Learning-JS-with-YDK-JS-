@@ -1,4 +1,4 @@
-// Kill all humans
+// Kill the entire humanity
 function Thing() {
     var type, status; // type = human || robot AND status = alive || dead
 
@@ -13,7 +13,7 @@ function Thing() {
         }
     }
 
-    var publicInterface = { // Opens up kill to the world
+    var publicInterface = { // Opens up kill to the world (Global)
         kill: killer
     };
     return publicInterface;
