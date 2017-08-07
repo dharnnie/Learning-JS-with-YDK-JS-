@@ -14,5 +14,5 @@ var c = foo(2); // LHS look-up for c --- RHS look-up for foo
     On the other hand LHS (Left hand side) Look-ups happens when a declaration is being made
         Has this been done before (In this scope?), No? -> Do it. else, ignore... look elsewhere
 
-        NB>: This is not all there is to RHS and LHS, this would definietely help 
+        NB>: This is not all there is to RHS and LHS, this would definitely help 
  */
