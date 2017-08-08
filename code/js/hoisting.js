@@ -19,3 +19,8 @@ var a = 21;
 // Line 7 happens first when you run your code, but not the way you think. That line is split into |var a  & a = 21|.
 // var a (Variable declaration); Happens first and is moved to the top of the stack at compile time
 // a = 21; Happens at runtime and is anywhere it is written at author time.
+
+/*
+    Why does Line 1 return undefined? 
+ */
+// Hence, Line 1 returns "undefined"
